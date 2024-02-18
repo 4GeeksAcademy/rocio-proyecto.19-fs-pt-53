@@ -31,7 +31,7 @@ export const EditContactForm = () => {
 			{
 				"full_name": name,
 				"email": email,
-				"agenda_slug": "karen_contacts",
+				"agenda_slug": "rocios_agenda",
 				"address": address,
 				"phone": phone,
 			}, id)
@@ -59,8 +59,8 @@ export const EditContactForm = () => {
 				<label for="formGroupExampleInput4" className="form-label">Address</label>
 				<input value={address} onChange={e => setAddress(e.target.value)} type="text" className="form-control" id="formGroupExampleInput4 " />
 			</div>
-			<div class="d-grid gap-2">
-				<button class="btn btn-primary" type="button" onClick={updateContact}>Update Contact</button>
+			<div className="d-grid gap-2">
+				<button className="btn btn-primary" type="button" onClick={updateContact}>Update Contact</button>
 			</div>
 		</div>
 	)

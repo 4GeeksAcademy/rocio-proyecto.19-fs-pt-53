@@ -46,8 +46,8 @@ export const AddContactForm = () => {
 				<label for="formGroupExampleInput4" className="form-label">Address</label>
 				<input value={address} onChange={e => setAddress(e.target.value)} type="text" className="form-control" id="formGroupExampleInput4 " placeholder="Enter Adress" />
 			</div>
-			<div class="d-grid gap-2">
-				<button class="btn btn-primary" type="button" onClick={createContact}>Add Contact</button>
+			<div className="d-grid gap-2">
+				<button className="btn btn-primary" type="button" onClick={createContact}>Add Contact</button>
 			</div>
 			<div>
 				<Link to="/">My Contact List</Link>
